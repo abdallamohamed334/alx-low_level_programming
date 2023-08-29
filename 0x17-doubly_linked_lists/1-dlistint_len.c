@@ -1,11 +1,11 @@
-#include "list.h"
+#include "lists.h"
 
 /**
  * dlistint_len - returns the number of elements in
- * element
+ * a double linked list
  *
- * @h: head of the list in doubly linked list
- * Return: thecount of the number of nodes
+ * @h: head of the list
+ * Return: the number of nodes
  */
 size_t dlistint_len(const dlistint_t *h)
 {
